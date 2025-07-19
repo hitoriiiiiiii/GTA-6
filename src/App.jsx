@@ -58,7 +58,7 @@ function App() {
     });
 
     gsap.to(".character", {
-      scale: 1.4,
+      scale: 0.8,
       x: "-50%",
       bottom: "-25%",
       rotate: 0,
@@ -115,10 +115,8 @@ function App() {
           </defs>
           <image
             href="./bg.png"
-            width="200"
-            height="200"
-            x="200"
-            y="100"
+            width="100%"
+            height="100%"
             preserveAspectRatio="xMidYMid slice"
             mask="url(#viMask)"
           />
@@ -157,7 +155,7 @@ function App() {
                 <h1 className="text-[12rem] leading-none -ml-40">auto</h1>
               </div>
               <img
-                className="absolute character -bottom-[150%] left-1/2 -translate-x-1/2  scale-[3] rotate-[-20deg]"
+                className="absolute character -bottom-[30%] left-1/2 -translate-x-1/2  scale-[1] rotate-[-20deg]"
                 src="./girlbg.png"
                 alt=""
               />
